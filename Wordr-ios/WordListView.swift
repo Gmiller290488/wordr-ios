@@ -14,7 +14,9 @@ struct WordListView: View {
     var body: some View {
         NavigationView {
             List {
-                Text("Hello, World!")
+                ForEach(0 ..< wordsList.count) { number in
+                    Text("\(self.wordsList[number])")
+                }
             }
             .navigationBarTitle("Wordr")
         }

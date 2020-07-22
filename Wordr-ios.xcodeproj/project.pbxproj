@@ -10,7 +10,7 @@
 		3B27084424C87E2F00793844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27084324C87E2F00793844 /* AppDelegate.swift */; };
 		3B27084624C87E2F00793844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27084524C87E2F00793844 /* SceneDelegate.swift */; };
 		3B27084924C87E2F00793844 /* Wordr_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B27084724C87E2F00793844 /* Wordr_ios.xcdatamodeld */; };
-		3B27084B24C87E2F00793844 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27084A24C87E2F00793844 /* ContentView.swift */; };
+		3B27084B24C87E2F00793844 /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27084A24C87E2F00793844 /* WordListView.swift */; };
 		3B27084D24C87E3100793844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B27084C24C87E3100793844 /* Assets.xcassets */; };
 		3B27085024C87E3100793844 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B27084F24C87E3100793844 /* Preview Assets.xcassets */; };
 		3B27085324C87E3100793844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B27085124C87E3100793844 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		3B27084324C87E2F00793844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B27084524C87E2F00793844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B27084824C87E2F00793844 /* Wordr_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wordr_ios.xcdatamodel; sourceTree = "<group>"; };
-		3B27084A24C87E2F00793844 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B27084A24C87E2F00793844 /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
 		3B27084C24C87E3100793844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B27084F24C87E3100793844 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B27085224C87E3100793844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				3B27084324C87E2F00793844 /* AppDelegate.swift */,
 				3B27084524C87E2F00793844 /* SceneDelegate.swift */,
-				3B27084A24C87E2F00793844 /* ContentView.swift */,
+				3B27084A24C87E2F00793844 /* WordListView.swift */,
 				3B27084C24C87E3100793844 /* Assets.xcassets */,
 				3B27085124C87E3100793844 /* LaunchScreen.storyboard */,
 				3B27085424C87E3100793844 /* Info.plist */,
@@ -151,7 +151,7 @@
 			files = (
 				3B27084424C87E2F00793844 /* AppDelegate.swift in Sources */,
 				3B27084624C87E2F00793844 /* SceneDelegate.swift in Sources */,
-				3B27084B24C87E2F00793844 /* ContentView.swift in Sources */,
+				3B27084B24C87E2F00793844 /* WordListView.swift in Sources */,
 				3B27084924C87E2F00793844 /* Wordr_ios.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
